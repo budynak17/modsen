@@ -1,0 +1,59 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz App</h1>
+        <div id="question-container">
+            <p id="question">Question text here</p>
+            <ul id="answer-buttons">
+                <li><button class="button"></button></li>
+                <li><button class="button"></button></li>
+                <li><button class="button"></button></li>
+            </ul>
+        </div>
+        <div id="result-container" style="display: none;">
+            <p id="result"></p>
+            <button id="restart-btn" onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+        <div id="counter">Question x of y</div>
+        <button id="next-btn" onclick="nextQuestion()" disabled>Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz App</h1>
+        <div id="question-container">
+            <p id="question">Question text here</p>
+            <p id="multiple-info" style="display: none; color: red;">(Multiple correct answers)</p>
+            <ul id="answer-buttons">
+                <!-- Answer options will be inserted here dynamically -->
+            </ul>
+        </div>
+        <div id="result-container" style="display: none;">
+            <p id="result"></p>
+            <button id="restart-btn" onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+        <div id="counter">Question x of y</div>
+        <button id="next-btn" onclick="nextQuestion()" disabled>Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
